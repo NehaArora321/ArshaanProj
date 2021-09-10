@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="js/mainScreen.js"></script>
+    <script src="js/levelScreen.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/level1.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+
+
+    <script>
+  //    var firebaseConfig = {
+  //   apiKey: "AIzaSyAuRXaSfxSV6Lc9P2Npmi645hGhLHPTP0Q",
+  //   authDomain: "goldenproject-e87b1.firebaseapp.com",
+  //   databaseURL: "https://goldenproject-e87b1-default-rtdb.firebaseio.com",
+  //   projectId: "goldenproject-e87b1",
+  //   storageBucket: "goldenproject-e87b1.appspot.com",
+  //   messagingSenderId: "821120669861",
+  //   appId: "1:821120669861:web:067e1bbb9e074f38de954c"
+  // };
+  const firebaseConfig = {
+  apiKey: "AIzaSyCfGRlGIk3AkMlupaRy_CT7iSlL7RYx3rU",
+  authDomain: "arshaanproj.firebaseapp.com",
+  databaseURL: "https://arshaanproj-default-rtdb.firebaseio.com",
+  projectId: "arshaanproj",
+  storageBucket: "arshaanproj.appspot.com",
+  messagingSenderId: "908095119182",
+  appId: "1:908095119182:web:4da4b9494b21ef3c63c81f"
+};
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
